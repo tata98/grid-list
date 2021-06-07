@@ -1,0 +1,39 @@
+body{
+    background-color: thistle;
+}
+button{
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+}
+.active{
+    background-color:#a560a5;
+    color:white;
+    border-radius: 7px;
+    transition: all 1s;
+}
+.item{
+    position: absolute;
+    width: 33%;
+   
+}
+.card{
+    margin-bottom:3px !important ;
+    color: white;
+    background-color: #693a69ad;
+    height: 340px;
+}
+.wrapper{
+    height: 350px;
+    position: relative;
+}
+.second{
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.third{
+    top: 0;
+    right: 0;
+}
+
